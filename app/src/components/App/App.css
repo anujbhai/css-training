@@ -1,0 +1,30 @@
+.container {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+button {
+	cursor: pointer;
+	color: rebeccapurple;
+	-webkit-transition: color 0.2s ease-in 50ms;
+	-o-transition: color 0.2s ease-in 50ms;
+	transition: color 0.2s ease-in 50ms;
+}
+button:hover { color: magenta; }
